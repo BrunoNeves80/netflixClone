@@ -111,3 +111,21 @@ form {
   );
   border-radius: 5px;
 }
+
+.subtitle-main {
+  font-size: 20px;
+}
+
+.box-info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  padding: 40px;
+  justify-content: center;
+}
+
+.box-title {
+  font-size: 48px;
+  font-weight: 800;
+}
