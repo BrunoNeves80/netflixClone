@@ -118,14 +118,22 @@ form {
 
 .box-info {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   color: white;
   align-items: center;
   padding: 40px;
   justify-content: center;
+  justify-content: space-around;
 }
 
 .box-title {
   font-size: 48px;
   font-weight: 800;
+}
+
+.shadow {
+  width: 80%;
+  height: 10px;
+  background-color: black;
+  margin: 0 auto;
 }
